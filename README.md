@@ -12,8 +12,8 @@ Welcome to the YouTube Video Sentiment Analyzer! This tool is designed to analyz
 3. View Results: Once analysis is complete, you can view the aggregate sentiment score for the video as well as sentiment scores for individual comments.
 4. Explore Insights: Gain insights into viewer sentiment towards the video content and use the analysis to inform decision-making or content strategy.
 ## Requirements
-Python: Ensure you have Python installed on your system.
-Dependencies: Install necessary dependencies by running pip install -r requirements.txt.
+1. Python: Ensure you have Python installed on your system.
+2. Dependencies: Install necessary dependencies by running pip install -r requirements.txt.
 ## Usage
 1. Run the Application: Execute python app.py to launch the application.
 2. Input Video URL: Enter the URL of the YouTube video when prompted.
