@@ -9,7 +9,7 @@ def sentiment_scores(comment, polarity):
     polarity.append(sentiment_dict['compound'])
     return polarity
 
-API_KEY = 'AIzaSyCl6YnUwPwKSx7yqq-5FsFlIZBBLZ6Gv8o'
+API_KEY = 'AIzaSyCl6YnUwPwKSx7yqq-5Fsxxxxxxxxxxxxx'
 def get_input(url):
     youtube = build('youtube', 'v3', developerKey=API_KEY)
     video_id = url[-11:]
