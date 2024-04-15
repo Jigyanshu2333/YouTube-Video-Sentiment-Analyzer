@@ -1,6 +1,6 @@
 from googleapiclient.discovery import build 
 import re 
-API_KEY = 'AIzaSyCl6YnUwPwKSx7yqq-5FsFlIZBBLZ6Gv8o'
+API_KEY = 'AIzaSyCl6YnUwPwKSx7yqq-5Fsxxxxxxxxxxxxxx'
 def get_input(url):
     youtube = build('youtube', 'v3', developerKey=API_KEY)
     video_id = url[-11:]
