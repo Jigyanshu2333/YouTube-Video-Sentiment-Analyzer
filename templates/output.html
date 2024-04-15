@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ url_for('static',filename = 'css/output.css') }}">
+    </head>
+    <body>
+        <div class="d">
+            <div class="outer">Views:<br> <div class="inner">{{view}}</div> </div>
+            <div class="outer">Likes:<br> <div class="inner">{{like}}</div> </div>
+            <div class="outer">Dislikes:<br> <div class="inner">{{dislikes}}</div></div>
+            <div class="outer">Polarity:<br> <div class="inner">{{polarity}}</div> </div>
+        </div>
+        <div class="result">Result:<br> <div class="inner"> {{result}}</div></div>
+    </body>
+</html>

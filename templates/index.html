@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static',filename = 'css/index.css') }}">
+</head>
+<body>
+    <div>
+        <img src="{{ url_for('static',filename = 'youtube_1383260.png') }}" class = "logo" >
+        <br>
+        <img src="{{ url_for('static',filename = 'youtube-video-sentiment-analyzer-high-resolution-logo-transparent.png') }}" class = "name_logo">
+        <br>
+        <form action="/submit" method="post">
+            <input type="text" name = "url" class = "url" placeholder="Enter the video link">
+            <br>
+            <button type="submit" name="analyze" class = "analyze">Analyze</button>
+        </form>
+    </div>
+    <div>
+        <img src="{{ url_for('static',filename = 'background.png') }}" alt="" class="background">
+    </div>
+</body>
+</html>

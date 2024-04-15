@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    height: 70px;
+    margin-left: 300px;
+    margin-top: 175px;
+}
+.background{
+    width: 800px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.name_logo{
+    width : 550px;
+    padding-left: 50px;
+}
+.url{
+    width: 540px;
+    height: 35px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+.analyze{
+    height: 35px;
+    width : 105px;
+    margin-left:280px;
+    margin-top: 10px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgba(85, 85, 255, 0.76);
+}
