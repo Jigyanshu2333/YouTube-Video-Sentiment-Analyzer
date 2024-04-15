@@ -19,6 +19,6 @@ Dependencies: Install necessary dependencies by running pip install -r requireme
 2. Input Video URL: Enter the URL of the YouTube video when prompted.
 3. Analyze Comments: Follow on-screen instructions to analyze comments and view results.
 ## Acknowledgements
-This project utilizes the power of natural language processing libraries and techniques. We would like to express our gratitude to the developers and contributors of NLTK, TextBlob, and other related libraries for their invaluable work.
+This project utilizes the power of natural language processing libraries and techniques. We would like to express our gratitude to the developers and contributors of NLTK, vaderSentiment, and other related libraries for their invaluable work.
 ## Disclaimer
 This tool is intended for educational and informational purposes only. The sentiment analysis provided may not be 100% accurate and should be interpreted with caution. We are not responsible for any decisions made based on the analysis provided by this tool.
