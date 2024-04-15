@@ -1,0 +1,5 @@
+flask
+emoji
+regex
+google-api-python-client
+vaderSentiment
